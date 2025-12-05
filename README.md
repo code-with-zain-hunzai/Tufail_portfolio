@@ -1,1 +1,1 @@
-# Razia_portfolio
+This is my personal portfolio website developed using the MERN stack (MongoDB, Express.js, React.js, and Node.js). It highlights my skills, projects, and experience as a MERN Stack Developer, with a focus on clean code, responsive design, and a smooth user experience. The portfolio is designed to showcase my frontend and backend expertise, making it easy for clients, recruiters, and collaborators to explore my work and get in touch.
