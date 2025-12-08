@@ -162,13 +162,7 @@ export default function Contact() {
                         <img src="/linkedin.webp" alt="LinkedIn" className="h-10 w-10" />
                       </a>
 
-                      <a
-                        href="mailto:razia.jahan44@gmail.com"
-                        aria-label="Email"
-                        className="p-2 rounded-full bg-primary hover:bg-primary/90 text-white transition-all duration-300 transform hover:scale-110 hover:rotate-3"
-                      >
-                        <Mail className="h-6 w-6" />
-                      </a>
+                    
                     </div>
 
                     </div>
