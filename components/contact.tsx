@@ -106,7 +106,7 @@ export default function Contact() {
   style={{
     backgroundImage: "url('map.png')",
     backgroundSize: "cover",
-    backgroundPosition: "center",
+    backgroundPosition: "center", 
     backgroundAttachment: "scroll",
   }}
 /> */}
