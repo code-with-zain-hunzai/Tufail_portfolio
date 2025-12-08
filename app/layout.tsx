@@ -10,8 +10,8 @@ import { Toaster } from "@/components/ui/toaster"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "MERN Stack Developer Portfolio",
-  description: "Portfolio website showcasing my skills as a MERN Stack Developer",
+  title: "Raza Jahan Portfolio",
+  description: "Portfolio website showcasing Raza Jahan Portfolio ",
   generator: 'v0.dev'
 }
 

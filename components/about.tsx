@@ -25,7 +25,7 @@ export default function About() {
           <div className="md:w-1/2">
             <div className="relative w-full aspect-square max-w-md mx-auto md:mx-0  ">
               <Image
-                src="/sheryar.jpg"
+                src="/Razia.png"
                 alt="Razia Bibi portrait"
                 width={450}
                 height={450}
@@ -51,7 +51,7 @@ export default function About() {
             </p>
 
             <div className="pt-4">
-              <a href="/sheryar-Amir.pdf" download>
+              <a href="/Raiza.pdf" download>
                 <Button variant="outline" className="gap-2">
                   <Download className="h-4 w-4" />
                   Download Resume

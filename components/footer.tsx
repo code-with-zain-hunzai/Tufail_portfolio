@@ -16,7 +16,7 @@ export default function Footer() {
             </p>
             <div className="flex space-x-3">
               <a
-                href="https://www.linkedin.com"
+                href="https://www.linkedin.com/in/razia-digital-marketer"
                 aria-label="LinkedIn"
                 className="p-2 rounded-full bg-[#0A66C2] hover:bg-[#004182] text-white transition-all duration-300 transform hover:scale-110 hover:rotate-3"
               >
