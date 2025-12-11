@@ -23,7 +23,7 @@ const testimonials = [
     author: "Marketing Lead",
     position: "Growth",
     company: "LitGrey Technologies",
-    avatar: "/placeholder.svg",
+    avatar: "/naveed.png",
     rating: 5,
   },
   {
@@ -33,7 +33,7 @@ const testimonials = [
     author: "Performance Director",
     position: "Demand Gen",
     company: "Digital Empire Agency",
-    avatar: "/placeholder.svg",
+    avatar: "/AyshaKhan.jpg",
     rating: 5,
   },
   {
@@ -43,52 +43,11 @@ const testimonials = [
     author: "Head of Growth",
     position: "Acquisition",
     company: "Deliver Funding",
-    avatar: "/placeholder.svg",
+    avatar: "hero.png",
     rating: 5,
   },
 
-  // {
-  //   id: 4,
-  //   content:
-  //     "I hired Sheryar for a React Native project, and he delivered exactly what I needed. The work was solid, communication was clear, and everything was completed on time. Would definitely recommend him",
-  //   author: "Ayesha Khan",
-  //   position: "Product Manager",
-  //   company: "TechNest Solutions",
-  //   avatar: "/AyshaKhan.jpg",
-  //   rating: 5,
-  // },
-  // {
-  //   id: 5,
-  //   content:
-  //     "Great experience working with Sheryar. They quickly fixed the bugs in our n8n workflows and exactly as required, good communication. Highly recommended!",
-  //   author: "Ayesha Khan",
-  //   position: "Product Manager",
-  //   company: "TechNest Solutions",
-  //   avatar: "/AyshaKhan.jpg",
-  //   rating: 5,
-  // },
 
-  // {
-  //   id: 6,
-  //   content:
-  //     "I Hired Sheryar to boost our existing teams capacity. He integrated seamlessly and completed all tasks that were assigned to him without any problems. We will definitely be using his services again when the situation arises.",
-  //   author: "Ayesha Khan",
-  //   position: "Product Manager",
-  //   company: "TechNest Solutions",
-  //   avatar: "/AyshaKhan.jpg",
-  //   rating: 5,
-  // },
-
-  // {
-  //   id: 7,
-  //   content:
-  //     "Sheryar quickly and efficiently resolved several critical bugs in my Next.js application, improving both performance and user experience. He demonstrated strong technical expertise and clear communication throughout the project. I highly recommend him for any frontend or Next.js work!",
-  //   author: "Ayesha Khan",
-  //   position: "Product Manager",
-  //   company: "TechNest Solutions",
-  //   avatar: "/AyshaKhan.jpg",
-  //   rating: 5,
-  // },
 ];
 
 // Star Rating Component

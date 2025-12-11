@@ -13,8 +13,8 @@ export const metadata: Metadata = {
 
 const techStack = [
   { name: "Google Analytics 4", icon: "https://www.vectorlogo.zone/logos/google_analytics/google_analytics-icon.svg" },
-  { name: "Google Tag Manager", icon: "https://www.vectorlogo.zone/logos/google_tagmanager/google_tagmanager-icon.svg" },
-  { name: "Google Ads", icon: "https://www.vectorlogo.zone/logos/google_adwords/google_adwords-icon.svg" },
+  { name: "Google Tag Manager", icon: "https://cdn.simpleicons.org/googletagmanager" },
+  { name: "Google Ads", icon: "https://cdn.simpleicons.org/googleads" },
   { name: "Meta Ads", icon: "https://www.vectorlogo.zone/logos/facebook/facebook-icon.svg" },
   { name: "LinkedIn Ads", icon: "https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" },
   { name: "Ahrefs / SEMrush", icon: "https://www.vectorlogo.zone/logos/semrush/semrush-icon.svg" },

@@ -25,7 +25,7 @@ export default function About() {
           <div className="md:w-1/2">
             <div className="relative w-full aspect-square max-w-md mx-auto md:mx-0  ">
               <Image
-                src="/Razia.png"
+                src="/Raiza.jpg"
                 alt="Razia Bibi portrait"
                 width={450}
                 height={450}

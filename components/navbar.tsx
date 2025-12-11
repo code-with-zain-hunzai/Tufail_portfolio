@@ -60,7 +60,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <Code className="h-6 w-6 text-primary" />
+            
             <span className="font-bold text-xl">Razia Bibi</span>
           </Link>
 

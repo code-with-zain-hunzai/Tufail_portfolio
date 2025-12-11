@@ -23,7 +23,7 @@ const projectsData = [
     title: "LitGrey Technologies",
     description:
       "Enhanced web presence and SEO/content strategy for a software/ERP provider, strengthening positioning across education and ERP domains.",
-    image: "/placeholder.svg",
+    image: "/image.png",
     tags: ["SEO", "Content Strategy", "Positioning", "Analytics"],
     demoUrl: "#",
     githubUrl: "",
@@ -33,7 +33,7 @@ const projectsData = [
     title: "Digital Empire Agency",
     description:
       "Amplified lead generation through paid social and search, improving inbound conversion rates with funnel and landing-page optimization.",
-    image: "/placeholder.svg",
+    image: "/image (1).png",
     tags: ["Google Ads", "Meta Ads", "CRO", "Lead Gen"],
     demoUrl: "https://digitalempireagency.com",
     githubUrl: "",
@@ -43,31 +43,24 @@ const projectsData = [
     title: "Kohminds Technologies",
     description:
       "Built brand awareness and thought leadership through social content, LinkedIn growth, and digital campaigns for enterprise AI/web development services.",
-    image: "/placeholder.svg",
+    image: "/kohminds.png",
     tags: ["LinkedIn", "Content", "Social Campaigns", "Brand"],
     demoUrl: "https://www.kohminds.com",
     githubUrl: "",
   },
   {
-    id: 4,
-    title: "Deliver Funding",
+    id: 3,
+    title: "Kohminds Technologies",
     description:
-      "Streamlined the digital acquisition funnel—paid search, social ads, and landing-page optimization—to accelerate business-loan applications.",
-    image: "/placeholder.svg",
-    tags: ["Paid Search", "Paid Social", "Landing Pages", "Analytics"],
-    demoUrl: "https://deliverfunding.com",
+      "Built brand awareness and thought leadership through social content, LinkedIn growth, and digital campaigns for enterprise AI/web development services.",
+    image: "/image (2).png",
+    tags: ["LinkedIn", "Content", "Social Campaigns", "Brand"],
+    demoUrl: "https://www.waypointdriving.com/",
     githubUrl: "",
   },
-  {
-    id: 5,
-    title: "Optician Dynamics",
-    description:
-      "Supported digital presence and referral/lead-gen campaigns for an optical practice SaaS, contributing to increased adoption.",
-    image: "/placeholder.svg",
-    tags: ["Referral", "Email Nurture", "Lead Gen", "Messaging"],
-    demoUrl: "https://opticiandynamics.com",
-    githubUrl: "",
-  },
+  
+  
+  
 ]
 
 export default function Projects() {

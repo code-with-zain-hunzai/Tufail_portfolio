@@ -26,37 +26,59 @@ export const metadata: Metadata = {
 const blogPosts = [
   {
     id: 1,
-    title: "Building Predictable B2B Lead Engines",
+    title: "Why Search Marketing & Branding Need Each Other",
     excerpt:
-      "How to align SEO, paid media, and conversion optimization into one plan that produces consistent, qualified pipeline.",
-    coverImage: "/placeholder.svg",
+      "The integration of search marketing and branding isn’t just beneficial — it’s essential for modern digital success. When these strategies work together, they create a powerful foundation for sustainable growth, better customer relationships, and stronger market presence.",
+    coverImage: "image (7).png",
     category: "Growth",
     readTime: "9 min read",
     date: "2025",
-    slug: "#",
+    slug: "https://medium.com/@razia.jahan44/why-search-marketing-branding-need-each-other-0de38f7b4e7a",
   },
   {
     id: 2,
-    title: "SEO vs Paid: When to Lean In on Each Channel",
+    title: "How to Optimize Your Google My Business Listing",
     excerpt:
-      "A practical framework for deciding when to prioritize organic growth versus paid acceleration—plus how to make them work together.",
-    coverImage: "/placeholder.svg",
+      "Google My Business is an invaluable tool for businesses seeking to increase local visibility, engage with customers, and drive traffic — all for free. By creating an optimized GMB profile and following these best practices, you’re setting your business up for success in local searches and beyond.",
+    coverImage: "/image (6).png",
     category: "Channel Strategy",
     readTime: "7 min read",
     date: "2025",
-    slug: "#",
+    slug: "https://medium.com/@razia.jahan44/how-to-optimize-your-google-my-business-listing-f95d1b24ef57",
   },
 
   {
     id: 3,
-    title: "Landing Pages That Convert: A CRO Checklist",
+    title: "Where Social Media Started: The story of Humanity’s Never-ending Desire to Connect",
     excerpt:
-      "From message-market fit to proof, offer clarity, and form strategy—how to design pages that turn clicks into qualified leads.",
-    coverImage: "/placeholder.svg",
+      "The story of where social media started is really the story of humanity’s never-ending desire to connect. From bulletin boards and BBS systems in the 1970s to TikTok dances and AI-driven feeds today, the evolution of social media shows how technology and culture grow together.",
+    coverImage: "/image (5).png",
     category: "CRO",
     readTime: "6 min read",
     date: "2025",
-    slug: "#",
+    slug: "https://medium.com/@razia.jahan44/where-social-media-started-the-story-of-humanitys-never-ending-desire-to-connect-7fa862ebaf73",
+  },
+  {
+    id: 4,
+    title: "The Future of Search Is Here: 6 Surprising Things Buyers Expect in 2025",
+    excerpt:
+      "The future of search is less about beating algorithms and more about serving real people through structured, conversational, AI-friendly content that earns trust and earns audience share across fragmented channels.",
+    coverImage: "/image (4).png",
+    category: "CRO",
+    readTime: "6 min read",
+    date: "2025",
+    slug: "https://medium.com/@razia.jahan44/the-future-of-search-is-here-6-surprising-things-buyers-expect-in-2025-c42eaf9bea1e",
+  },
+  {
+    id: 5,
+    title: "Voice Search SEO: Optimizing Your Website for Voice Queries",
+    excerpt:
+      "Voice search optimization is crucial for forward-thinking businesses. Conduct a thorough voice search SEO audit and optimize your content for featured snippets to capitalize on the growing trend of voice-based searches.",
+    coverImage: "/image (3).png",
+    category: "CRO",
+    readTime: "6 min read",
+    date: "2025",
+    slug: "https://medium.com/@razia.jahan44/voice-search-seo-optimizing-your-website-for-voice-queries-5fd1b2166f07",
   },
 ];
 
