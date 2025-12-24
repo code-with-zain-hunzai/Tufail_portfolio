@@ -25,7 +25,7 @@ const projectsData = [
       "Enhanced web presence and SEO/content strategy for a software/ERP provider, strengthening positioning across education and ERP domains.",
     image: "/image.png",
     tags: ["SEO", "Content Strategy", "Positioning", "Analytics"],
-    demoUrl: "#",
+    demoUrl: "https://www.litgreytechnologies.com/",
     githubUrl: "",
   },
   {
@@ -49,16 +49,33 @@ const projectsData = [
     githubUrl: "",
   },
   {
-    id: 3,
-    title: "Kohminds Technologies",
-    description:
-      "Built brand awareness and thought leadership through social content, LinkedIn growth, and digital campaigns for enterprise AI/web development services.",
+    id: 4,
+    title: "WayPoint Driving School",
+    description: "Worked with Waypoint Driving to strengthen their organic digital presence through content strategy, social media management, and brand positioning. Focused on increasing visibility, engagement, and inbound leads using consistent, value-driven organic marketing efforts.",
     image: "/image (2).png",
     tags: ["LinkedIn", "Content", "Social Campaigns", "Brand"],
     demoUrl: "https://www.waypointdriving.com/",
     githubUrl: "",
   },
-  
+   {
+    id: 5,
+    title: "fitwithshama",
+    description:"Managed the Instagram content for @fitwithshama by planning, creating, and publishing posts, optimizing captions and hashtags, and engaging with the audience to grow brand visibility and interaction.",
+    image: "/insta1.png",
+    tags: ["Digital Marketing", "Instagram Marketing", ," Organic Growth", "Content Strategy", "Content", "Social Campaigns", "Brand"],
+    demoUrl: "",
+    githubUrl: "https://www.instagram.com/fitwithshama/",
+  },
+  {
+    id: 6,
+    title: "Fraser Stevens Learning",
+    description:"Managed the Instagram presence for @kate_fslearning by developing and executing organic growth strategies, curating content, and optimizing engagement to strengthen brand awareness and audience interaction.",
+    image: "/insta2.png",
+    tags: ["LinkedIn", "Content", "Social Campaigns", "Brand" ,"Digital Marketing", "Instagram Marketing", ," Organic Growth", "Content Strategy", ],
+    demoUrl: "https://www.instagram.com/kate_fslearning/",
+    githubUrl: "",
+  },
+
   
   
 ]

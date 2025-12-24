@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
-import { Github, Linkedin,  Mail, ArrowRight, Instagram } from "lucide-react"
+import { Github, Linkedin,  Mail, ArrowRight, Instagram, Facebook } from "lucide-react"
 
 export default function Footer() {
   return (
@@ -29,13 +29,23 @@ export default function Footer() {
               >
                 <img src="/upwork.png" alt="Upwork" className="h-5 w-5" />
               </a>
-              <a
-                href="mailto:razia.jahan44@gmail.com"
-                aria-label="Email"
-                className="p-2 rounded-full bg-primary hover:bg-primary/90 text-white transition-all duration-300 transform hover:scale-110 hover:rotate-3"
-              >
-                <Mail className="h-5 w-5" />
-              </a>
+             
+             <a
+  href="https://www.instagram.com/elevizo22?igsh=MWE5cmpiY3E1eXlqaw=="
+  aria-label="Instagram"
+  className="p-2 rounded-full bg-gradient-to-tr from-[#f58529] via-[#dd2a7b] to-[#8134af] text-white transition-all duration-300 transform hover:scale-110 hover:rotate-3"
+>
+  <Instagram className="h-5 w-5" />
+</a>
+
+<a
+  href="https://www.facebook.com/share/1JMKBRxQNW/"
+  aria-label="Facebook"
+  className="p-2 rounded-full bg-[#1877F2] text-white transition-all duration-300 transform hover:scale-110 hover:rotate-3"
+>
+  <Facebook className="h-5 w-5" />
+</a>
+
             </div>
 
           </div>
