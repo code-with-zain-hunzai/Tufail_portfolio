@@ -12,9 +12,9 @@ import { Badge } from "@/components/ui/badge";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Experience | Razia Bibi",
+  title: "Experience | Tufail",
   description:
-    "Explore Razia Bibi's growth marketing engagements, roles, achievements, and channel expertise.",
+    "Explore Tufail's growth marketing engagements, roles, achievements, and channel expertise.",
 };
 
 const experienceData = [

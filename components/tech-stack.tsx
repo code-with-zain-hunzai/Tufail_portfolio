@@ -5,9 +5,9 @@ import { Card, CardContent } from "@/components/ui/card"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Toolkit | Razia Bibi",
+  title: "Toolkit | Tufail",
   description:
-    "The growth, analytics, and marketing tools Razia uses to build predictable lead engines.",
+    "The growth, analytics, and marketing tools Tufail uses to build predictable lead engines.",
 }
 
 

@@ -61,7 +61,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
             
-            <span className="font-bold text-xl">Razia Bibi</span>
+            <span className="font-bold text-xl">Tufail</span>
           </Link>
 
           {/* Desktop Navigation */}

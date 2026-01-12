@@ -9,9 +9,9 @@ import { Button } from "@/components/ui/button";
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Testimonials | Razia Bibi",
+  title: "Testimonials | Tufail",
   description:
-    "What partners say about working with Razia on growth and digital marketing.",
+    "What partners say about working with Tufail on growth and digital marketing.",
 }
 
 // Sample testimonial data - in a real app, this would come from an API or CMS
@@ -19,7 +19,7 @@ const testimonials = [
   {
     id: 1,
     content:
-      "Razia tightened our positioning and rebuilt our content/SEO program. We now see qualified traffic that actually converts into pipeline.",
+      "Tufail tightened our positioning and rebuilt our content/SEO program. We now see qualified traffic that actually converts into pipeline.",
     author: "Marketing Lead",
     position: "Growth",
     company: "LitGrey Technologies",
@@ -39,7 +39,7 @@ const testimonials = [
   {
     id: 3,
     content:
-      "Razia's landing page and funnel experiments gave us faster application volume without sacrificing quality. Clear reporting and fast iterations.",
+      "Tufail's landing page and funnel experiments gave us faster application volume without sacrificing quality. Clear reporting and fast iterations.",
     author: "Head of Growth",
     position: "Acquisition",
     company: "Deliver Funding",

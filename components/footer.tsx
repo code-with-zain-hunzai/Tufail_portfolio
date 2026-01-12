@@ -10,20 +10,20 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* About Column */}
           <div className="md:col-span-1">
-            <h3 className="text-lg font-semibold mb-4">Razia Bibi</h3>
+            <h3 className="text-lg font-semibold mb-4">Tufail</h3>
             <p className="text-sm text-muted-foreground mb-4">
               B2B Growth & Digital Marketing Specialist focused on predictable lead pipelines across SEO, paid media, and CRO.
             </p>
             <div className="flex space-x-3">
               <a
-                href="https://www.linkedin.com/in/razia-digital-marketer"
+                href="https://www.linkedin.com/in/tufail-ahmad-598187390/"
                 aria-label="LinkedIn"
                 className="p-2 rounded-full bg-[#0A66C2] hover:bg-[#004182] text-white transition-all duration-300 transform hover:scale-110 hover:rotate-3"
               >
                 <Linkedin className="h-5 w-5" />
               </a>
               <a
-                href="https://www.upwork.com"
+                href="https://www.upwork.com/freelancers/~01a6ec6f0b4db6a25d?s=1017484851352698999"
                 aria-label="Upwork"
                 className="p-2 rounded-full bg-[#6fda44] hover:bg-[#5bc236] text-white transition-all duration-300 transform hover:scale-110 hover:rotate-3"
               >
@@ -31,7 +31,7 @@ export default function Footer() {
               </a>
              
              <a
-  href="https://www.instagram.com/elevizo22?igsh=MWE5cmpiY3E1eXlqaw=="
+  href="https://www.instagram.com/marketingwithtufail/"
   aria-label="Instagram"
   className="p-2 rounded-full bg-gradient-to-tr from-[#f58529] via-[#dd2a7b] to-[#8134af] text-white transition-all duration-300 transform hover:scale-110 hover:rotate-3"
 >
@@ -39,7 +39,7 @@ export default function Footer() {
 </a>
 
 <a
-  href="https://www.facebook.com/share/1JMKBRxQNW/"
+  href="https://www.facebook.com/marketingwithtufail/"
   aria-label="Facebook"
   className="p-2 rounded-full bg-[#1877F2] text-white transition-all duration-300 transform hover:scale-110 hover:rotate-3"
 >
@@ -87,10 +87,10 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4"> Contact Info </h3>
             <ul className="space-y-2 text-sm">
               <li className="text-foreground/70">
-                <span className="font-medium">Email:</span> razia.jahan44@gmail.com
+                <span className="font-medium">Email:</span> tufailahmedbusiness51@gmail.com
               </li>
               <li className="text-foreground/70">
-                <span className="font-medium">Phone:</span> +92 316 4608988
+                <span className="font-medium">Phone:</span> 03555980725
               </li>
               <li className="text-foreground/70">
                 <span className="font-medium">Location:</span> Pakistan (remote / global)
@@ -115,7 +115,7 @@ export default function Footer() {
 
         <div className="border-t mt-12 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-xs text-muted-foreground">
-            &copy; {new Date().getFullYear()} Razia Bibi. All rights reserved.
+            &copy; {new Date().getFullYear()} Tufail. All rights reserved.
           </p>
           <div className="flex gap-4 mt-4 md:mt-0">
             <Link href="#" className="text-xs text-muted-foreground hover:text-primary">

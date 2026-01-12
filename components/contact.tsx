@@ -6,15 +6,8 @@ import { useForm } from "react-hook-form"
 import { zodResolver } from "@hookform/resolvers/zod"
 import * as z from "zod"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { toast } from "@/components/ui/use-toast"
-import { Mail, Phone, MapPin, Github } from "lucide-react"
-import type { Metadata } from "next"
-
-export const metadata: Metadata = {
-  title: "Contact | Razia Bibi",
-  description:
-    "Get in touch with Razia Bibi for growth strategy, paid media, SEO, and conversion optimization engagements.",
-}
+import { toast } from "sonner"
+import { Mail, Phone, MapPin} from "lucide-react"
 
 // Form validation schema
 const formSchema = z.object({
@@ -58,24 +51,19 @@ export default function Contact() {
       const result = await response.json()
 
       if (result.success) {
-        toast({
-          title: "Message sent!",
+        toast.success("Message sent!", {
           description: "Thank you for your message. I'll get back to you soon.",
         })
 
         form.reset()
       } else {
-        toast({
-          title: "Something went wrong.",
+        toast.error("Something went wrong.", {
           description: result.message || "Please try again later.",
-          variant: "destructive",
         })
       }
     } catch (error) {
-      toast({
-        title: "Something went wrong.",
+      toast.error("Something went wrong.", {
         description: "Your message couldn't be sent. Please try again.",
-        variant: "destructive",
       })
     } finally {
       setIsSubmitting(false)
@@ -122,7 +110,7 @@ export default function Contact() {
                     <Mail className="h-6 w-6 text-primary mt-0.5" />
                     <div>
                       <h3 className="font-medium">Email</h3>
-                      <p className="text-muted-foreground">razia.jahan44@gmail.com</p>
+                      <p className="text-muted-foreground">tufailahmedbusiness51@gmail.com</p>
                     </div>
                   </div>
 
@@ -130,7 +118,7 @@ export default function Contact() {
                     <Phone className="h-6 w-6 text-primary mt-0.5" />
                     <div>
                       <h3 className="font-medium">Phone</h3>
-                      <p className="text-muted-foreground">+92 316 4608988</p>
+                      <p className="text-muted-foreground">03555980725</p>
                     </div>
                   </div>
 
@@ -147,7 +135,7 @@ export default function Contact() {
                     <div className="flex space-x-4">
                     <div className="flex space-x-4 my-4">
                       <a
-                        href="https://www.upwork.com"
+                        href="https://www.upwork.com/freelancers/~01a6ec6f0b4db6a25d?s=1017484851352698999"
                         aria-label="Upwork"
                         className="p-2 rounded-full bg-[#6fda44] hover:bg-[#5bc236] text-white transition-all duration-300 transform hover:scale-110 hover:rotate-3"
                       >
@@ -155,7 +143,7 @@ export default function Contact() {
                       </a>
 
                       <a
-                        href="https://www.linkedin.com"
+                        href="https://www.linkedin.com/in/tufail-ahmad-598187390/"
                         aria-label="LinkedIn"
                         className="p-2 rounded-full hover:bg-[#29b2fe] bg-[#008dd2] text-white transition-all duration-300 transform hover:scale-110 hover:rotate-3"
                       >
@@ -215,7 +203,7 @@ export default function Contact() {
                   {...form.register("subject")}
                   className="mt-1 block w-full px-4 py-3 rounded-md border border-gray-300 shadow-sm transition-all duration-200 focus:border-primary focus:ring-2 focus:ring-primary/20 focus:outline-none"
                 />
-               <p className="text-sm text-destructive mt-1">{form.formState.errors.message?.message}</p>
+                <p className="text-sm text-destructive mt-1">{form.formState.errors.subject?.message}</p>
 
               </div>
 
@@ -226,7 +214,7 @@ export default function Contact() {
                 <textarea
                   id="message"
                   {...form.register("message")}
-                  className="mt-1 block w-full px-4 py-3 rounded-md border border-gray-300shadow-sm transition-all duration-200 focus:border-primary focus:ring-2 focus:ring-primary/20 focus:outline-none"
+                  className="mt-1 block w-full px-4 py-3 rounded-md border border-gray-300 shadow-sm transition-all duration-200 focus:border-primary focus:ring-2 focus:ring-primary/20 focus:outline-none"
                   rows={4}
                 />
                 <p className="text-sm text-destructive mt-1">{form.formState.errors.message?.message}</p>

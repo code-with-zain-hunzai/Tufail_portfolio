@@ -18,7 +18,7 @@ import { Badge } from "@/components/ui/badge";
 
 import type { Metadata } from "next";
 export const metadata: Metadata = {
-  title: "Blog | Razia Bibi",
+  title: "Blog | Tufail",
   description:
     "Articles on B2B growth, SEO, paid media, conversion optimization, and full-funnel strategy.",
 };
@@ -33,7 +33,7 @@ const blogPosts = [
     category: "Growth",
     readTime: "9 min read",
     date: "2025",
-    slug: "https://medium.com/@razia.jahan44/why-search-marketing-branding-need-each-other-0de38f7b4e7a",
+    slug: "https://medium.com/@tufail.jahan44/why-search-marketing-branding-need-each-other-0de38f7b4e7a",
   },
   {
     id: 2,
@@ -44,7 +44,7 @@ const blogPosts = [
     category: "Channel Strategy",
     readTime: "7 min read",
     date: "2025",
-    slug: "https://medium.com/@razia.jahan44/how-to-optimize-your-google-my-business-listing-f95d1b24ef57",
+    slug: "https://medium.com/@tufail.jahan44/how-to-optimize-your-google-my-business-listing-f95d1b24ef57",
   },
 
   {
@@ -56,7 +56,7 @@ const blogPosts = [
     category: "CRO",
     readTime: "6 min read",
     date: "2025",
-    slug: "https://medium.com/@razia.jahan44/where-social-media-started-the-story-of-humanitys-never-ending-desire-to-connect-7fa862ebaf73",
+    slug: "https://medium.com/@tufail.jahan44/where-social-media-started-the-story-of-humanitys-never-ending-desire-to-connect-7fa862ebaf73",
   },
   {
     id: 4,
@@ -67,7 +67,7 @@ const blogPosts = [
     category: "CRO",
     readTime: "6 min read",
     date: "2025",
-    slug: "https://medium.com/@razia.jahan44/the-future-of-search-is-here-6-surprising-things-buyers-expect-in-2025-c42eaf9bea1e",
+    slug: "https://medium.com/@tufail.jahan44/the-future-of-search-is-here-6-surprising-things-buyers-expect-in-2025-c42eaf9bea1e",
   },
   {
     id: 5,
@@ -78,7 +78,7 @@ const blogPosts = [
     category: "CRO",
     readTime: "6 min read",
     date: "2025",
-    slug: "https://medium.com/@razia.jahan44/voice-search-seo-optimizing-your-website-for-voice-queries-5fd1b2166f07",
+    slug: "https://medium.com/@tufail.jahan44/voice-search-seo-optimizing-your-website-for-voice-queries-5fd1b2166f07",
   },
 ];
 

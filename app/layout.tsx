@@ -5,13 +5,13 @@ import { Inter } from "next/font/google"
 import { ThemeProvider } from "@/components/theme-provider"
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
-import { Toaster } from "@/components/ui/toaster"
+import { Toaster } from "@/components/ui/sonner"
 
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Raza Jahan Portfolio",
-  description: "Portfolio website showcasing Raza Jahan Portfolio ",
+  title: "Tufail Portfolio",
+  description: "Portfolio website showcasing Tufail Portfolio ",
   generator: 'v0.dev'
 }
 

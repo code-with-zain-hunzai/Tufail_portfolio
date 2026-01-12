@@ -11,7 +11,7 @@ import { Github, ExternalLink } from "lucide-react"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Projects | Razia Bibi",
+  title: "Projects | Tufail",
   description:
     "Growth and digital marketing engagements focused on predictable pipeline creation across SEO, paid media, and conversion funnels.",
 }

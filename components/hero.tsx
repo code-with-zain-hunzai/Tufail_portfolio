@@ -34,7 +34,7 @@ export default function Hero() {
             </p>
 
             <h1 className="text-4xl font-bold  sm:text-5xl md:text-6xl lg:text-7xl">
-              Razia Bibi Predictable Pipeline Builder
+              Tufail Predictable Pipeline Builder
             </h1>
 
             <div className="w-20 h-1 bg-primary mb-6 mx-auto"></div>
